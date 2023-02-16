@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="script.js"></script>
+        <link rel="icon" type="image/x-icon" href="C:\Users\DSGO\OneDrive\Pictures\Dev Images\brock.jpg">
+        <title>Contact</title>
+        </head>
+        <body>
+            <a><img class="backdrop" href="backdrop" src="C:/Users/DSGO/OneDrive/Pictures/Dev Images/onefc.jpg"></a>
+<nav>
+    <a id="nav-button" href="./index.html">Home</a>
+    <a id="nav-button" href="./about.html">News</a>
+    <a id="nav-button" href="./odds.html">Odds</a>
+    <a id="nav-button" href="./contact.html">Contact</a>
+</nav>
+<div class="bio">
+<p>Tommo has previously owned an MMA gym and has been practicing martial arts since he was 8 years old, giving him over 20 years of martial arts experience.</p>
+<p>He uses his technical understanding of the fighters and their styles to analyse the potential outcomes (alongside side some other methods like their records and current performance).</p>
+<p>We will soon be adding a suggestion box so you can let us know what other info you'd like to see feautred on the website!</p>
+<br>
+<!--<p>If there's any other features you'd like me to add then drop a suggestion in the box below!</p>
+</div>
+<br>
+
+<div id="contact-form">
+    <form action="mailto:tomdevwork@gmail.com" method="post">
+        <fieldset>
+        <input id="form-box" name="name" placeholder="Your name" type="text">
+        <br>
+        <br>
+        <input id="form-box" name="email" placeholder="Email" type="text">
+        <br>
+        <br>
+        <textarea id="text-box" placeholder="Type your message here" tabindex="5"></textarea>
+        <br>
+        <br>
+        <button id="submit" type="submit" value="send">Submit</button>
+    </fieldset>
+    </form>
+    </div>-->
+    <br>
+            <div id="Contact">
+                <p><strong>email:</strong> <a class="email" href="mailto:tomdevwork@gmail.com"> tomdevwork@gmail.com</a> | <strong>availability:</strong> available immediately</p>
+                </div>
+                <div class="radio">
+               <p><strong>I am currently on the job market</strong></p>
+               <p>Do you want to hire me?</p>
+               <form>
+                <input type="radio" onclick="revealCV()" id="yes" name="hire" value="Yes">
+                <label for="yes">Yes</label>
+                <input type="radio" onclick="tryAgain()" id="no" name="hire" value="No">
+                <label for="no">No</label>
+              </form>
+              <br>
+             <a id="cv" class="reveal" style="display:none" href="C:\Users\DSGO\Downloads\Tom O'Hanlon CV (2).pdf" download="Tom O'Hanlon CV">
+                  <img src="C:\Users\DSGO\Downloads\Tom O'Hanlon CV (2).pdf" alt="CV">
+              </a>
+              <p id="tryagain" class="reveal" style="display:none">Try again...</p>
+                <!--<address>
+                    <a href="mailto:tomdevwork@gmail.com">Email me</a>.<br>
+                    </address>/-->
+                </div>
+        </body>
+    </head>
+</html>
