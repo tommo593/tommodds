@@ -126,8 +126,7 @@ nav {
 
 .fighter {
     border-radius: 10px;
-    max-width: 33%;
-    max-height: 33%;
+    max-width: 600px;
 }
 
 .disclaimer {
