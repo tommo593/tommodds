@@ -27,7 +27,7 @@ body {
 }
 
 h1 {
-    background-color: rgb(192, 7, 7);
+    background-color: rgb(65, 65, 65);
     width: auto;
     border: 10px #454343;
     border-radius: 10px;
@@ -168,6 +168,7 @@ nav {
     max-height: 10cm;
     max-width: 14cm;
 }
+
 
 .bio {
     background-color: rgb(65, 65, 65);
