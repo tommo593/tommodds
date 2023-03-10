@@ -63,7 +63,7 @@ table, th, td {
  }
 
  div {
-    background-color: rgb(192, 7, 7);
+    background-color: rgb(65, 65, 65);
     width: auto;
     border: 10px #454343;
     border-radius: 10px;
@@ -74,7 +74,7 @@ table, th, td {
 }
 
 nav {
-    background-color: rgb(192, 7, 7);
+    background-color: rgb(65, 65, 65);
     width: auto;
     border: 10px #454343;
     border-radius: 10px;
@@ -101,7 +101,7 @@ nav {
   }
 
 .twitter-timeline {
-    background-color: rgb(192, 7, 7);
+    background-color: rgb(65, 65, 65);
     width: auto;
     border: 10px #454343;
     border-radius: 10px;
@@ -130,7 +130,7 @@ nav {
 }
 
 .disclaimer {
-    background-color: rgb(192, 7, 7);
+    background-color: rgb(65, 65, 65);
     width: auto;
     border: 10px #454343;
     border-radius: 10px;
@@ -141,7 +141,7 @@ nav {
 }
 
 .intro {
-    background-color: rgb(192, 7, 7);
+    background-color: rgb(65, 65, 65);
     width: auto;
     border: 10px #454343;
     border-radius: 10px;
@@ -170,7 +170,7 @@ nav {
 }
 
 .bio {
-    background-color: rgb(192, 7, 7);
+    background-color: rgb(65, 65, 65);
     width: auto;
     border: 10px #454343;
     border-radius: 10px;
