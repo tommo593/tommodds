@@ -1,5 +1,5 @@
 import React from 'react';
-import MyModal from '.MyModal';
+import MyModal from './MyModal';
 
 const App = () => {
     return (

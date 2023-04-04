@@ -10,7 +10,7 @@ const MyModal= () => {
     }
 
     return (
-        <></>
+        <>
         <button onClick={toggleModal}>Open Modal</button>
         <Modal isOpen={isOpen} onRequestClose={toggleModal}>
             <h1>My Modal</h1>
