@@ -1,4 +1,4 @@
-/*let form = document.querySelector(".form");*/
+
 
 function revealCV() {
     document.getElementById("cv").style.display = "block";
